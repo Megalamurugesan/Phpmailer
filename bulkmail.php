@@ -9,7 +9,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     
 
 $mail = new PHPMailer();
-$mail->setFrom('lithanm6@gmail.com', 'Admin');
+$mail->setFrom('xxx', 'Admin');
 
 $mail->Subject = $subject;
 $mail->isHTML(TRUE);
